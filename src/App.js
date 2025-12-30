@@ -11,7 +11,7 @@ function App() {
 
   let getData=(event)=>{//function to fetch data from API
     setIsLoading(true);//updating loading state variable
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=eb388746755ffb470423f293eaa459fe&units=metric`)//fetching data from API
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.REACT_APP_WEATHER_API_KEY}&units=metric`)//fetching data from API
     .then((res)=>res.json())//converting response to json
     .then((finalRes)=>{//final response
       if(finalRes.cod==404){

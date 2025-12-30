@@ -51,6 +51,11 @@ body{
   outline: none;
   margin-left: 5px;
    border-radius: 5px;
+   transition: 0.3s;
+}
+.innerDiv form .btn:hover{
+  background-color: #02585b;
+  
 }
 .innerDiv2{
   width: 400px;
