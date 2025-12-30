@@ -35,10 +35,30 @@ A simple and responsive weather application built using React. The app allows us
 
 ---
 
-## 🔑 API Key Setup
+## 🔐 How to Setup API Key Securely
 
-Create an account at https://openweathermap.org and generate your API key.  
-Replace the API key inside `fetch()` function.
+1. Go to OpenWeatherMap website and create your API key.
+
+2. In the project root folder, create a file named:
+
+   .env
+
+3. Inside the .env file write:
+
+   REACT_APP_WEATHER_API_KEY=your_api_key_here
+
+4. Open .gitignore file and make sure this line is present:
+
+   .env
+
+5. Restart the project:
+
+   npm start
+
+6. In App.js use the key like this:
+
+   const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
+
 
 ---
 
