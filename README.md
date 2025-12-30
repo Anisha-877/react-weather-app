@@ -25,12 +25,6 @@ A simple and responsive weather application built using React. The app allows us
 
 ---
 
-## 📸 Screenshots
-
-(Add screenshots here if you want later)
-
----
-
 ## ⚙️ Installation
 
 1. Clone the repository
