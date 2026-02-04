@@ -1,6 +1,7 @@
 # 🌦️ React Weather App
 
 A simple and responsive weather application built using React. The app allows users to search weather details of any city in real time using the OpenWeatherMap API.
+## Live Project - react-wather-app.netlify.app
 
 ---
 
